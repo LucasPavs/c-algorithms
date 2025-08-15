@@ -1,1 +1,1 @@
-Contemple o Mago e seus poderes
+Estudo de algoritmos usando a linguagem C
