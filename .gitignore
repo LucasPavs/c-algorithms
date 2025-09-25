@@ -2,6 +2,14 @@ Ponteiros/
 Bool/
 Estudos Prova 2 Fabio/
 Lista Exercicio fabin pai/
-Preparação para a prova/
+Preparação para prova/
 Semana 9/
 Semana 10/
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex

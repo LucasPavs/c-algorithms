@@ -1,5 +1,6 @@
 #include <stdio.h>
- int main(){
+ 
+int main(){
     int M, N;
 
     printf("Informe o primeiro termo do intervalo: ");
