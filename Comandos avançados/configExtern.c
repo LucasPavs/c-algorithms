@@ -1,0 +1,1 @@
+int modo_de_operacao = 1;
