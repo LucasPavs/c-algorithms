@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+    int a = 0, b = 1, proximo;
+
+    printf("Digite um número inteiro: ");
+    scanf("%d", &N);
+
+    printf("Série de Fibonacci até %d:\n", N);
+
+    while (a <= N) {
+        printf("%d ", a);
+        proximo = a + b;
+        a = b;
+        b = proximo;
+    }
+
+    printf("\n");
+    return 0;
+}
