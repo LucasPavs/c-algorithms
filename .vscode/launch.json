@@ -5,10 +5,10 @@
             "name": "C/C++: gcc executar arquivo ativo",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
@@ -19,7 +19,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "miDebuggerPath": "/usr/bin/gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
             "preLaunchTask": "C/C++: gcc arquivo de build ativo",
             "miDebuggerArgs": "",
             "logging": {
